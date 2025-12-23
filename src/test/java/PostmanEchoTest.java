@@ -20,7 +20,7 @@ public class PostmanEchoTest {
     @Test
     public void shouldReturnRussianText() {
         given()
-                .baseUri("https://postman-echo.com")
+                .baseUri("http://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
                 .body("тестовые данные")
                 .when()
